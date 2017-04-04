@@ -2,8 +2,8 @@
 using Lykke.EmailProvider.Models;
 using Lykke.EmailProvider.Providers;
 using Lykke.Integration.AzureQueueAndBlobs;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Lykke.EmailProvider.Test
 {
-    [TestFixture]
+    [TestClass]
     public class EmailProviderTest
     {
         private readonly string _applicationName;
@@ -29,7 +29,7 @@ namespace Lykke.EmailProvider.Test
 
         }
 
-        [Test]
+        [TestMethod]
         public void EmailProvider_SendsMessage_Moq()
         {
             EmailMessage emailMessage = new EmailMessage()
@@ -49,7 +49,7 @@ namespace Lykke.EmailProvider.Test
 
         }
 
-        [Test]
+        [TestMethod]
         public void EmailProvider_SendsMessage_TestQueue()
         {
             EmailMessage emailMessage = new EmailMessage()

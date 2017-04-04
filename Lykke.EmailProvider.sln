@@ -7,9 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12851B6D-7CE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95EED31D-A2F6-47B5-9EE1-DCE8A1306E42}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.EmailProvider.Test", "test\Lykke.EmailModel.Test\Lykke.EmailProvider.Test.csproj", "{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.EmailProvider", "src\Lykke.EmailProvider\Lykke.EmailProvider.csproj", "{507F40AA-4BEF-4525-B21F-4B032ADEF6BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.EmailProvider.Test", "test\Lykke.EmailProvider.Test\Lykke.EmailProvider.Test.csproj", "{138DF791-8024-4AF8-971F-D51ED7948483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8A56EFCA-A177-48C1-9997-8105B1A95275}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,20 +19,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{507F40AA-4BEF-4525-B21F-4B032ADEF6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{507F40AA-4BEF-4525-B21F-4B032ADEF6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{507F40AA-4BEF-4525-B21F-4B032ADEF6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{507F40AA-4BEF-4525-B21F-4B032ADEF6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138DF791-8024-4AF8-971F-D51ED7948483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138DF791-8024-4AF8-971F-D51ED7948483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138DF791-8024-4AF8-971F-D51ED7948483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138DF791-8024-4AF8-971F-D51ED7948483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D} = {12851B6D-7CE0-4FC2-8148-25C0E0735A67}
 		{507F40AA-4BEF-4525-B21F-4B032ADEF6BF} = {12851B6D-7CE0-4FC2-8148-25C0E0735A67}
+		{138DF791-8024-4AF8-971F-D51ED7948483} = {8A56EFCA-A177-48C1-9997-8105B1A95275}
 	EndGlobalSection
 EndGlobal

@@ -1,21 +1,21 @@
-﻿using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MimeKit;
 using Lykke.EmailProvider.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Lykke.EmailProvider.Test
 {
-    [TestFixture]
+    [TestClass]
     public class SerializationTest
     {
         public SerializationTest()
         {
         }
 
-        [Test]
+        [TestMethod]
         public void SuccesfulSerializationTest()
         {
             MailMessageSerializer serializator = new MailMessageSerializer();
