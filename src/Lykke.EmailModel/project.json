@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Lykke.AzureQueueIntegration": "1.0.7",
+    "Lykke.AzureStorage": "1.2.17",
+    "Lykke.Common": "1.1.66",
+    "Lykke.Integration.AzureQueueAndBlobs": "1.0.5",
+    "MailKit": "1.12.0",
+    "Microsoft.NETCore.App": "1.1.0",
+    "System.Runtime.Serialization.Formatters": "4.3.0"
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  }
+}

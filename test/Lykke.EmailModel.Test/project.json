@@ -1,0 +1,36 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    //"Microsoft.NETCore.App": {
+    //  "type": "platform",
+    //  "version": "1.1.0"
+    //},
+    "NUnit": "3.6.1",
+    "dotnet-test-nunit": "3.4.0-beta-2",
+    "Microsoft.DotNet.InternalAbstractions": "1.0.0",
+    "NBitcoin": "3.0.1.7",
+    "QBitNinja.Client": "1.0.3.33",
+    "Moq": "4.6.38-alpha",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.1.1",
+    "Lykke.EmailModel": "1.0.0-*"
+  },
+
+  "testRunner": "nunit",
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        }
+      },
+      "imports": [
+        "dotnet5.4",
+        "portable-net451+win8"
+      ]
+    }
+  }
+}
+
+
