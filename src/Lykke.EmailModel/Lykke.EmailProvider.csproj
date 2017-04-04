@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>Lykke.EmailProvider</AssemblyName>
+    <PackageId>Lykke.EmailProvider</PackageId>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50;portable-net45+win8</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Authors>Lykke.EmailProvider</Authors>
+    <Description>Lykke libriary for sending serialized emails to the blob storage and adding events in azure storage</Description>
+    <Copyright>Copyright 2017 (c) Lykke Corp. All rights reserved.</Copyright>
+    <NeutralLanguage>en-029</NeutralLanguage>
+    <PackageTags>Lykke Email Provider</PackageTags>
+    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.EmailProvider</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.EmailProvider/blob/master/LICENSE</PackageLicenseUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lykke.AzureQueueIntegration" Version="1.0.7" />
+    <PackageReference Include="Lykke.AzureStorage" Version="1.2.17" />
+    <PackageReference Include="Lykke.Common" Version="1.1.66" />
+    <PackageReference Include="Lykke.Integration.AzureQueueAndBlobs" Version="1.0.5" />
+    <PackageReference Include="MailKit" Version="1.12.0" />
+    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

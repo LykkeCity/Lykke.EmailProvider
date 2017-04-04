@@ -1,18 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12851B6D-7CE0-4FC2-8148-25C0E0735A67}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95EED31D-A2F6-47B5-9EE1-DCE8A1306E42}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lykke.EmailProvider", "src\Lykke.EmailModel\Lykke.EmailProvider.xproj", "{B896EBB4-540D-4096-A20E-F32B02308081}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.EmailProvider", "src\Lykke.EmailModel\Lykke.EmailProvider.csproj", "{B896EBB4-540D-4096-A20E-F32B02308081}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lykke.EmailProvider.Test", "test\Lykke.EmailModel.Test\Lykke.EmailProvider.Test.xproj", "{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.EmailProvider.Test", "test\Lykke.EmailModel.Test\Lykke.EmailProvider.Test.csproj", "{CF672A89-BB7C-4D4F-BFB9-70ED5C39D43D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
