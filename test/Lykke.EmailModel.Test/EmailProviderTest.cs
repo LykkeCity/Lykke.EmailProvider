@@ -23,7 +23,7 @@ namespace Lykke.EmailProvider.Test
             _settings = new AzureQueueAndBlobIntegrationSettings()
             {
                 BlobContainer = "test-email-container",
-                ConnectionString = "",
+                ConnectionString = "UseDevelopmentStorage=true",
                 QueueName = "test-queue",
             };
 
