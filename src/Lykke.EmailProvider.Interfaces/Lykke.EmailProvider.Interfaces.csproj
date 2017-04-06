@@ -9,6 +9,10 @@
     <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.EmailProvider/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/LykkeCity/Lykke.EmailProvider</PackageProjectUrl>
     <PackageTags>Lykke Email Provider Interfaces</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <NeutralLanguage>en-001</NeutralLanguage>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

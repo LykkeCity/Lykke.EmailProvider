@@ -12,11 +12,12 @@
     <Authors>Lykke.EmailProvider</Authors>
     <Description>Lykke libriary for sending serialized emails to the blob storage and adding events in azure storage</Description>
     <Copyright>Copyright 2017 (c) Lykke Corp. All rights reserved.</Copyright>
-    <NeutralLanguage>en-029</NeutralLanguage>
+    <NeutralLanguage>en-001</NeutralLanguage>
     <PackageTags>Lykke Email Provider</PackageTags>
     <PackageProjectUrl>https://github.com/LykkeCity/Lykke.EmailProvider</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.EmailProvider/blob/master/LICENSE</PackageLicenseUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
