@@ -1,7 +1,7 @@
 ﻿using Lykke.EmailProvider.Models;
 using System.Threading.Tasks;
 
-namespace Lykke.EmailProvider.Providers
+namespace Lykke.EmailProvider.Interfaces
 {
     public interface IEmailReader
     {

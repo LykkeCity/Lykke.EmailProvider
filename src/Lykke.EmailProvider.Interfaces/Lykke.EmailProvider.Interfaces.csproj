@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Authors>Lykke</Authors>
+    <Company>Lykke</Company>
+    <Description>Interfaces for Lykke.EmailProvider package</Description>
+    <Copyright>Copyright 2017 (c) Lykke Corp. All rights reserved.</Copyright>
+    <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.EmailProvider/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.EmailProvider</PackageProjectUrl>
+    <PackageTags>Lykke Email Provider Interfaces</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lykke.EmailProvider.Models\Lykke.EmailProvider.Models.csproj" />
+  </ItemGroup>
+
+</Project>

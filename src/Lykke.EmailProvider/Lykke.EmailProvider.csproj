@@ -28,4 +28,9 @@
     <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lykke.EmailProvider.Interfaces\Lykke.EmailProvider.Interfaces.csproj" />
+    <ProjectReference Include="..\Lykke.EmailProvider.Models\Lykke.EmailProvider.Models.csproj" />
+  </ItemGroup>
+
 </Project>

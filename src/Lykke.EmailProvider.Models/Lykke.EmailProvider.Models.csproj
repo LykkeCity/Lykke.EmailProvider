@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Authors>Lykke</Authors>
+    <Company>Lykke</Company>
+    <Description>Libriary with email model fro Lykke.EmailProvider pacakge</Description>
+    <Copyright>Copyright 2017 (c) Lykke Corp. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/LykkeCity/Lykke.EmailProvider</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/LykkeCity/Lykke.EmailProvider/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>Lykke Email Provider Models</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

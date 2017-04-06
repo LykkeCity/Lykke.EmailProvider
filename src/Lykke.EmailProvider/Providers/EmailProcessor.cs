@@ -9,10 +9,11 @@ using Lykke.Integration.AzureQueueAndBlobs.Publisher;
 using Lykke.Integration.AzureQueueAndBlobs;
 using Common.Log;
 using Lykke.EmailProvider.Models;
+using Lykke.EmailProvider.Interfaces;
 
 namespace Lykke.EmailProvider.Providers
 {
-    public class EmailProcessor
+    public class EmailProcessor : IEmailProcessor
     {
         private readonly IEmailProviderPublisher _emailProviderPublisher;
         private readonly IEmailReader _emailReader;
@@ -42,16 +43,4 @@ namespace Lykke.EmailProvider.Providers
             return serializedMailMessage.EmailMessage;
         }
     }
-
-    //public async Task<SerializedMailMessage> ReadEmail(string key)
-    //{
-    //    _queueAndBlobSubscriber.
-    //    using (var blobStream = await _blobStorage.GetAsync(destinationFolder, key))
-    //    {
-    //        byte[] buffer = new byte[blobStream.Length];
-    //        await blobStream.ReadAsync(buffer, 0 , (int)blobStream.Length);
-    //        string jsonMessage = System.Text.Encoding.Unicode.GetString(buffer);
-    //        return JsonConvert.DeserializeObject<SerializedMailMessage>(jsonMessage);
-    //    }
-    //}
 }

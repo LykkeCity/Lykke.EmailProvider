@@ -1,4 +1,5 @@
 ﻿using Common.Log;
+using Lykke.EmailProvider.Interfaces;
 using Lykke.EmailProvider.Models;
 using Lykke.EmailProvider.Providers;
 using Lykke.Integration.AzureQueueAndBlobs;

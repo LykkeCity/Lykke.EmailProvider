@@ -9,6 +9,7 @@ using Lykke.Integration.AzureQueueAndBlobs.Publisher;
 using Lykke.Integration.AzureQueueAndBlobs;
 using Common.Log;
 using Lykke.EmailProvider.Models;
+using Lykke.EmailProvider.Interfaces;
 
 namespace Lykke.EmailProvider.Providers
 {

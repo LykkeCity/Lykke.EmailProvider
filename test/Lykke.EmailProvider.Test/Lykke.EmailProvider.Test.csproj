@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Lykke.EmailProvider.Models\Lykke.EmailProvider.Models.csproj" />
     <ProjectReference Include="..\..\src\Lykke.EmailProvider\Lykke.EmailProvider.csproj" />
   </ItemGroup>
 
