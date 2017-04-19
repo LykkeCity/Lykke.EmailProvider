@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Lykke.AzureQueueIntegration" Version="1.0.7" />
-    <PackageReference Include="Lykke.Common" Version="1.1.66" />
+    <PackageReference Include="Lykke.Common" Version="1.1.69" />
     <PackageReference Include="Lykke.Integration.AzureQueueAndBlobs" Version="1.0.6" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
     <PackageReference Include="Moq" Version="4.7.8" />
